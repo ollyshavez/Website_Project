@@ -1,0 +1,40 @@
+[v-cloak] {
+    display: none;
+}
+
+div[contenteditable="true"] li {
+    list-style-type: disc !important
+}
+
+div[contenteditable="true"] {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+div[contenteditable="true"] .recipe {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+
+div[contenteditable="true"] .recipe.ingredient {
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+div[contenteditable="true"] .recipe.time {
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+div[contenteditable="true"] .recipe.temperature {
+    background-color: rgba(228, 228, 228, 0.5);
+}
+
+.strike {
+    text-decoration: line-through;
+    color: rgba(158, 158, 158);
+}
+
+.pointer {
+    cursor: pointer;
+}
